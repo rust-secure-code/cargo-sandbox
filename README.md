@@ -3,6 +3,7 @@
 [![Latest Version][crate-image]][crate-link]
 [![Docs][docs-image]][docs-link]
 ![Apache 2.0/MIT licensed][license-image]
+[![Build Status][build-image]][build-link]
 
 Perform Cargo builds inside of a sandboxed environment.
 
@@ -50,6 +51,8 @@ additional terms or conditions.
 [docs-image]: https://docs.rs/cargo-sandbox/badge.svg
 [docs-link]: https://docs.rs/cargo-sandbox/
 [license-image]: https://img.shields.io/badge/license-Apache2.0%2FMIT-blue.svg
+[build-image]: https://travis-ci.com/rust-secure-code/cargo-sandbox.svg?branch=develop
+[build-link]: https://travis-ci.com/rust-secure-code/cargo-sandbox
 [cc]: https://contributor-covenant.org
 [CODE_OF_CONDUCT.md]: https://github.com/rust-secure-code/cargo-sandbox//blob/develop/CODE_OF_CONDUCT.md
 [LICENSE-APACHE]: https://github.com/rust-secure-code/cargo-sandbox/blob/develop/LICENSE-APACHE
