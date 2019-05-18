@@ -14,3 +14,4 @@ keywords    = ["cargo", "sandboxing", "security"]
 maintenance = { status = "experimental" }
 
 [dependencies]
+gaol = "0.2"
