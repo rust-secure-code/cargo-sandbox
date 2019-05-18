@@ -6,6 +6,10 @@
 
 Perform Cargo builds inside of a sandboxed environment.
 
+## Requirements
+
+- Rust 1.31+
+
 ## Status
 
 This tool is in the planning stage and is not presently usable.
