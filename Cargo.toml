@@ -1,0 +1,16 @@
+[package]
+name        = "cargo-sandbox"
+description = "Perform Cargo builds inside of a sandboxed environment"
+version     = "0.0.0"
+authors     = ["Rust Secure Code WG <noreply@securecode.rust-lang.org>"]
+edition     = "2018"
+license     = "Apache-2.0 OR MIT"
+readme      = "README.md"
+repository  = "https://github.com/rust-secure-code/cargo-sandbox"
+categories  = ["command-line-utilities", "development-tools", "rust-patterns"]
+keywords    = ["cargo", "sandboxing", "security"]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
