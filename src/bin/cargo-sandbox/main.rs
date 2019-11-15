@@ -1,15 +1,16 @@
 //! cargo-sandbox command-line utility
 
-#![deny(
-    warnings,
-    missing_docs,
-    trivial_casts,
-    trivial_numeric_casts,
-    unused_import_braces,
-    unused_qualifications
-)]
 #![forbid(unsafe_code)]
+#![warn(missing_docs, rust_2018_idioms, unused_qualifications)]
+
+use crossterm::style::Colorize;
+use std::{env, process};
 
 fn main() {
-    cargo_sandbox::start();
+    let args = env::args().collect::<Vec<_>>();
+
+    cargo_sandbox::start(&args[1..]).unwrap_or_else(|e| {
+        eprintln!("{} {}", "error:".red(), e);
+        process::exit(1);
+    });
 }

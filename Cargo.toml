@@ -2,7 +2,7 @@
 name        = "cargo-sandbox"
 description = "Perform Cargo builds inside of a sandboxed environment"
 version     = "0.0.0"
-authors     = ["Rust Secure Code WG <noreply@securecode.rust-lang.org>"]
+authors     = ["Rust Secure Code WG"]
 edition     = "2018"
 license     = "Apache-2.0 OR MIT"
 readme      = "README.md"
@@ -14,3 +14,8 @@ keywords    = ["cargo", "sandboxing", "security"]
 maintenance = { status = "experimental" }
 
 [dependencies]
+crossterm = "0.13"
+env_logger = "0.7"
+gumdrop = "0.7"
+home = "0.5"
+rustwide = "0.3"
